@@ -1,0 +1,12 @@
+[PXESERVA_MENU_ENTRY]
+asset    = ResqDisk unpacked
+platform = x86_64
+
+kernel_bios    = /NWA_PXE/c7/sysresccd/boot/i686/vmlinuz
+append_bios    = initrd=/NWA_PXE/c7/sysresccd/boot/intel_ucode.img,/NWA_PXE/c7/sysresccd/boot/amd_ucode.img,/NWA_PXE/c7/sysresccd/boot/i686/sysresccd.img
+ipappend_bios  = 2
+
+kernel_efi64   = /NWA_PXE/c7/sysresccd/boot/i686/vmlinuz
+append_efi64   = initrd=/NWA_PXE/c7/sysresccd/boot/intel_ucode.img,/NWA_PXE/c7/sysresccd/boot/amd_ucode.img,/NWA_PXE/c7/sysresccd/boot/i686/sysresccd.img
+ipappend_efi64 = 2
+
